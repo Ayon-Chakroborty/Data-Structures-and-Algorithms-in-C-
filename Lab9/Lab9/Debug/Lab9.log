@@ -1,0 +1,27 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  test9.cpp
+C:\Users\chakr\source\repos\Lab9\Lab9\BSTree.cpp(269,1): error C2446: '<': no conversion from 'const KeyType' to 'BSTree<TestData,int>::BSTreeNode *'
+          with
+          [
+              KeyType=int
+          ]
+C:\Users\chakr\source\repos\Lab9\Lab9\BSTree.cpp(269,17): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\chakr\source\repos\Lab9\Lab9\BSTree.cpp(267): message : while compiling class template member function 'void BSTree<TestData,int>::writeLTHelper(BSTree<TestData,int>::BSTreeNode *,const KeyType &) const'
+          with
+          [
+              KeyType=int
+          ]
+C:\Users\chakr\source\repos\Lab9\Lab9\BSTree.cpp(263): message : see reference to function template instantiation 'void BSTree<TestData,int>::writeLTHelper(BSTree<TestData,int>::BSTreeNode *,const KeyType &) const' being compiled
+          with
+          [
+              KeyType=int
+          ]
+C:\Users\chakr\source\repos\Lab9\Lab9\BSTree.cpp(17): message : while compiling class template member function 'BSTree<TestData,int>::BSTree(void)'
+C:\Users\chakr\source\repos\Lab9\Lab9\test9.cpp(37): message : see reference to function template instantiation 'BSTree<TestData,int>::BSTree(void)' being compiled
+C:\Users\chakr\source\repos\Lab9\Lab9\test9.cpp(37): message : see reference to class template instantiation 'BSTree<TestData,int>' being compiled
+C:\Users\chakr\source\repos\Lab9\Lab9\BSTree.cpp(272,1): error C2446: '<': no conversion from 'const KeyType' to 'BSTree<TestData,int>::BSTreeNode *'
+          with
+          [
+              KeyType=int
+          ]
+C:\Users\chakr\source\repos\Lab9\Lab9\BSTree.cpp(272,18): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
